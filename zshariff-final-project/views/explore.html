@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="../static/script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Zeeshan Shariff">
+    <meta name="keywords" content="Museum, Carnegie Mellon University, Information Systems">
+    <meta name="description" content="MonoMuse website redesign project">
+    <title>MonoMuse</title>
+</head>
+<body onload="addYear()">
+    <div class="container"> 
+        <header class="header">
+            <img id="logo" src="../static/monomuselogo.png" alt="MonoMuse Museum Logo"> 
+        </header>
+        <nav class="nav_bar">   
+            <a href="../index.html">Home</a>
+            <a href="./explore.html">Explore</a>
+            <a href="./exhibitions.html">Exhibitions</a>
+            <a href="./tickets.html">Buy Tickets</a>
+            <a href="./donation.html">Donate</a>
+        </nav>
+        <main class="main">
+            <h3>Image Gallery: </h3>
+            <div class="slideshow">
+                <img id="slide" src="../static/img1.png.jpg" alt="A modern white museum building labeled “MONOMUSE,” featuring a large central dome, symmetrical design, and warmly lit display windows showcasing artwork, set against a clear blue sky." style="width: 50%; height: 50%">
+            </div>
+            <h3>Mission Statement</h3>
+            <p>MonoMuse is dedicated to exploring the evolving relationship between art, technology, and society. Our mission is to inspire curiosity and creativity by showcasing innovative exhibitions that highlight how digital tools, emerging technologies, and human imagination shape the future of artistic expression.</p>
+            <h3>Milestones</h3>
+            <ul>
+                <li>2023: Expansion of the museum space and launch of international artist collaborations.</li>
+                <li>2018: Launch of the Interactive Media Lab, allowing visitors to experiment with creative coding.</li>
+                <li>2016: MonoMuse opens its doors with its first exhibition on digital storytelling</li>
+            </ul>
+        </main>
+        <footer class="footer"> &copy; <span id="copyYear"></span> MonoMuse. All rights reserved. Contact: admin@monomuse.com </footer>
+    </div>
+</body>
+</html>
